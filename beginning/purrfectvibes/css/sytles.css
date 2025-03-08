@@ -22,13 +22,14 @@ h1, h2, h3 {
     max-width: 100%;
     padding: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 a {
     color: #b3679b;
 }
 h2 {
-    display: inline;
     text-align: center; 
+    margin: 0 auto;
 }
 /* Header & Navigation Section */
 header {
