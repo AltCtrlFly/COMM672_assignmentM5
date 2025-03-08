@@ -77,7 +77,9 @@ nav li {
     text-decoration: none;
     color: white;
     padding: 15px;
-    display: inline-block;
+    display: block;
+    text-align: left;
+    width: fit-content;
 }
 .button:hover {
     border: 1px solid #222e50;
@@ -86,7 +88,8 @@ nav li {
 }
 .hero h1 {
     font-size: 1.5em;
-    display: inline-block;
+    display: block;
+    text-align: left;
 }
 .hero p {
     display:block;
@@ -95,9 +98,9 @@ nav li {
     padding: 20px 0px;
 }
 .hero-cat {
-    position: absolute;
-    right: 10%;
-    bottom: 20px;
+    position: relative;
+    right: -50%;
+    bottom: 150px;
     max-width: 100%;
 }
 /* Features Section  */
